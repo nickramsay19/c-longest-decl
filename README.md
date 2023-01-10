@@ -9,5 +9,5 @@ This is a pointless exploration of the longest possible C declaration.
 
 ## The longest C declaration
 ```c
-_Atomic volatile const _Alignas(64) _Thread_local static unsigned long long int _Complex * const restrict very_long_var;
+_Atomic volatile _Alignas(64) _Thread_local static const unsigned long long int _Complex * const restrict very_long_var;
 ```
